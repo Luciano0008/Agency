@@ -6,7 +6,7 @@
 header img {
   margin: 10px auto; /* Ajusta el margen superior e inferior y centra horizontalmente */
   display: block; /* Para centrar correctamente en algunos casos */
-  width: 12%;
+  width: 250px;
   height: auto;
 }
 
@@ -71,57 +71,18 @@ h3 {
   text-align: center;
   color: #fff;
 }
-
-/*--BODY/MAIN/IMAGENES (1,2,3)--*/
-
-.imagenes-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px; 
-}
-.imagen {
-  flex: 1;
-  margin-bottom: 60px; 
-}
-.imagen img {
-  max-width: 80%;
-  height: auto;
-  width: 350px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.imagen img[src*="img-1-main"],
-.imagen img[src*="img-2-main"],
-.imagen img[src*="img-3-main"] {
-  margin-bottom: 20px; 
-}
-.imagen img:hover {
-  transform: scale(1.1);
-  filter: brightness(1.2); 
-  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-}
-.imagen img[src*="img-1-main"]:hover,
-.imagen img[src*="img-2-main"]:hover,
-.imagen img[src*="img-3-main"]:hover {
-  transform: scale(1.1);
-  filter: brightness(1.2); 
-  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-}
-@media (max-width: 600px) {
-  .imagenes-container {
-      flex-direction: column;
-      align-items: center; 
-      margin: 5px; 
-  }
-  .imagen {
-      margin-bottom: 5px; 
-  }
+h4 {
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
 }
 
 /*--BODY/MAIN/IMAGENES (logo)--*/
 
 img[src*="logo-negativo-main"] {
-  max-width: 350px; 
+  max-width: 250px; 
   height: auto;
   display: block; 
   margin: 0 auto; /
@@ -131,10 +92,10 @@ img[src*="logo-negativo-main"] {
 
 img {
   max-width: 80%;
-  border-radius: 15px;
   display: block;
   margin: 0 auto;
   height: auto;
+  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 600px) {
